@@ -12,10 +12,10 @@ body {
 }
 
 header{
-    height: 0;
+    height: 80px;
     width: 100%;
     position: fixed;
-    bottom: 718px;
+    bottom: 800px;
     z-index: 99999;
 }
 
@@ -26,19 +26,15 @@ header{
 }*/
 
 footer{
-    height: 80px;
+    height: 85px;
     width: 100%;
     position: fixed;
     bottom: 0px;
     z-index: 99999;
 }
 
-#who-we-are h5 {
-
-}
-
 #who-we-are p {
-    border-left: 100px;
+    left: 100px;
 }
 
 /* ---- Images ---- */
@@ -59,11 +55,33 @@ footer{
     animation-fill-mode: forwards;*/
 }
 
-#section-outer{
-    height:100%;
+#about-real-groove-image {
+    height: 500px;
     width: 100%;
-    overflow:hidden;
+    top: 0px;
+    left: 180px;
     position: relative;
+    background: url("../images/about-real-groove.jpg") no-repeat center center;
+
+    background-size: 100%;   
+    -ms-background-size: 100%;   
+    -o-background-size: 100%;   
+    -moz-background-size: 100%;   
+    -webkit-background-size: 100%;
+}
+
+#section-landing-image{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#section-about-us {
+    height: 50%;
+    width: 100%;
+    position: relative;
+    overflow: auto;
 }
 
 /* ---- Navbar ---- */
@@ -123,10 +141,20 @@ footer{
     .hide-header-navigation-item {
         display: none !important;
     }
+
+    #who-we-are {
+        height: 500px; 
+        overflow-y: scroll;
+    }
 }
+
 @media only screen and (max-width: 600px) {
     .hide-footer-navigation-item {
         display: none !important;
+    }
+    
+    #about-real-groove-image {
+        left: 0px;
     }
 }
 
