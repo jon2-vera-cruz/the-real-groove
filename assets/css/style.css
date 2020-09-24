@@ -1,0 +1,149 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #777777;
+    padding-top: 0;
+}
+
+header{
+    height: 0;
+    width: 100%;
+    position: fixed;
+    bottom: 718px;
+    z-index: 99999;
+}
+
+/*h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #555555;
+}*/
+
+footer{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    z-index: 99999;
+}
+
+#who-we-are h5 {
+
+}
+
+#who-we-are p {
+    border-left: 100px;
+}
+
+/* ---- Images ---- */
+#real-groove-image{
+    height:800px;
+    width: 100%;
+    top: 0px;
+    position: relative;
+    background: url("../images/real-groove.jpg") no-repeat center center;
+
+    background-size: 100%;   
+    -ms-background-size: 100%;   
+    -o-background-size: 100%;   
+    -moz-background-size: 100%;   
+    -webkit-background-size: 100%;
+    /*animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;*/
+}
+
+#section-outer{
+    height:100%;
+    width: 100%;
+    overflow:hidden;
+    position: relative;
+}
+
+/* ---- Navbar ---- */
+.navalert-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 30px;
+    float: top;
+}
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .25);
+    border: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.navbar .navbar-generate-content-header {
+    height: calc( 100vh - 60px ) !important;
+}
+
+/* ----- Containers ----- */
+.callout-container {
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* ---- Media Screen ---- */
+@media only screen and (min-width: 600px) {
+    .hide-header-navigation-item {
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .hide-footer-navigation-item {
+        display: none !important;
+    }
+}
+
+/* ---- Social Media ---- */        
+.social-networks{
+    text-align: center;
+    position: left;
+}
+
+.social-networks li {
+    /*display:inline;*/
+    float:left;
+    position: relative;
+}
+
+.social-networks i {
+    margin: 1%;
+    padding: 5%;
+    color: #777777;
+}
