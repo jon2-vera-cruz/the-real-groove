@@ -26,9 +26,9 @@
                             <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#who-we-are">Who we are</a>
+                            <a class="nav-link dropdown-toggle" href="#" id="navheadbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                            <div class="dropdown-menu" aria-labelledby="navheadbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#section-about-us">Who we are</a>
                                 <a class="dropdown-item" href="/">Contact/Book Us</a>
                             </div>
                         </li>
@@ -95,15 +95,68 @@
 
                                 <h5>Booking Agent</h5>
                                 <p>Musikero Unlimited&nbsp;</p>
-                                
-                                <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
                             </div>
                         </div>
-                        !
+
                         <!--<div class="col-12 d-md-none d-lg-block col-lg-4">-->
-                        <div class="col-12 d-md-none d-lg-block col-lg-4">
+                        <div class="col-12 d-lg-block d-none col-lg-4">
                             <div class="feature">
                                 <div id="about-real-groove-image"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- /.features -->
+            </div>
+        </div>
+    </section>
+    <section id="section-community-and-event">
+        <div class="container-wrapper container-wrapper--red">
+            <div class="container features-container content-container">
+                <section class="features">
+                    <div class="row">
+                        <div class="col-12 page-header">
+                            <h2 class="text-uppercase">Community | Events</h2>
+                            <hr class="block-divider block-divider--short block-divider--white">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6 ">
+                            <span id="community-sign-up" class="shadow p-3 mb-5 bg-white rounded">
+                                <button class="btn btn-lg btn-nav" data-toggle="modal" data-target="#joinCommunity">Join our Community</button>
+                            </span>
+                            <!--p style="text-align=center;">or</p-->
+                            <span id="community-post" class="shadow p-3 mb-5 bg-white rounded">
+                                <button class="btn btn-lg btn-nav" data-toggle="modal" data-target="#createPost">Create a Post</button>
+                            </span>
+                       </div>
+
+                        <!--<div class="col-12 d-md-none d-lg-block col-lg-4">-->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="feature" >
+                                <div style="text-align=center;" id="demo-calendar" data-tockify-calendar="spirited" data-tockify-component="mini"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- /.features -->
+            </div>
+        </div>
+    </section>
+    <section id="section-gallery">
+        <div class="container-wrapper container-wrapper--red">
+            <div class="container features-container content-container">
+                <section class="features">
+                    <div class="row">
+                        <div class="col-12 page-header">
+                            <h2 class="text-uppercase">Gallery</h2>
+                            <hr class="block-divider block-divider--short block-divider--white">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6 ">
+                            <div id="real-groove-gallery">
+                            Gallery
                             </div>
                         </div>
                     </div>
@@ -124,8 +177,8 @@
                             <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item dropup">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="nav-link dropdown-toggle" href="#" id="navfootbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                            <div class="dropdown-menu" aria-labelledby="navfootbarDropdownMenuLink">
                                 <a class="dropdown-item" href="#who-we-are">Who we are</a>
                                 <a class="dropdown-item" href="/">Contact/Book Us</a>
                             </div>
@@ -144,10 +197,74 @@
             </nav>
         </div>
     </footer>
-    
+
+    <!-- **** Modal for Join In Our Community **** -->
+    <div class="modal" tabindex="-1" role="dialog" id="joinCommunity">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Join our Community! Sign-up now!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <!--label for="username">User Name</label-->
+                            <input type="text" class="form-control" id="username" placeholder="User Name" required>
+                        </div>
+                        <div class="form-group">
+                            <!--label for="exampleInputEmail1">Email Address</label-->
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address" aria-describedby="emailHelp" required>
+                            <small id="emailHelp" class="form-text text-muted">Your email is safe with us, we will never share it with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <!--label for="password">Password</label-->
+                            <input type="password" class="form-control" id="password" placeholder="Password" required>
+                        </div>
+                        <div class="form-group">
+                            <!--label for="confirmPassword">Confirm Password</label-->
+                            <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password" required>
+                        </div>
+                        <button type="submit" class="btn-modal">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- **** Modal for Create Post **** -->
+    <div class="modal" tabindex="-1" role="dialog" id="createPost">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">[User Name]</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <!--label for="whats-on-ur-mind">What's on your mind?</label-->
+                            <input type="text" class="form-control" id="whats-on-ur-mind" placeholder="What's on your mind?" required>
+                            <ul class="navbar-nav community-post">
+                                <li class="nav-item mr-2"><a href="https://www.google.com/maps/" target="_blank"> <i class="nav-link fas fa-map-marker-alt"></i>Check-In</a></li>
+                                <li class="nav-item mr-2"><a href="C:///Users/Default/Pictures"> <i class="nav-link fab fa-instagram"></i>Upload Photo</a></li>
+                            </ul>
+                        </div>
+                       <button type="submit" class="btn-modal">Post</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+    <script src="https://public.tockify.com/browser/embed.js" data-cfasync="false" data-tockify-script="embed"></script>
 </body>
 </html>

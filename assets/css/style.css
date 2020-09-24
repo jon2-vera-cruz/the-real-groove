@@ -19,11 +19,19 @@ header{
     z-index: 99999;
 }
 
-/*h2 {
-    text-transform: uppercase;
+#community-sign-up, #community-post {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-color: #030303;
+    border-radius: 20px;
+}
+
+h2 {
+    /*text-transform: uppercase;*/
     letter-spacing: 4px;
-    color: #555555;
-}*/
+    color: #f74949;
+}
 
 footer{
     height: 85px;
@@ -82,6 +90,7 @@ footer{
     width: 100%;
     position: relative;
     overflow: auto;
+    
 }
 
 /* ---- Navbar ---- */
@@ -120,6 +129,18 @@ footer{
     height: calc( 100vh - 60px ) !important;
 }
 
+.btn-nav {
+    font-weight: bold;
+    background-color: #fff;
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+}
+
+.btn-nav:hover {
+    background: #f74949;
+    color: rgb(0, 0, 0);
+}
+
 /* ----- Containers ----- */
 .callout-container {
     height: 100vh;
@@ -146,6 +167,12 @@ footer{
         height: 500px; 
         overflow-y: scroll;
     }
+    
+    #demo-calendar {
+        position: relative;
+        margin: 0, auto;
+        width: 180%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -156,6 +183,7 @@ footer{
     #about-real-groove-image {
         left: 0px;
     }
+
 }
 
 /* ---- Social Media ---- */        
@@ -174,4 +202,39 @@ footer{
     margin: 1%;
     padding: 5%;
     color: #777777;
+}
+
+/* ---- API Links ----- */
+/*#demo-calendar {
+    position: relative;
+    margin: 0, auto;
+    width: 100%;
+}*/
+
+
+/* ---- Modal ---- */
+.modal {
+    color: black;
+}
+
+.btn-modal {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: #5a5a5a;
+    border-radius: 20px;
+    margin-top: 25px;
+    height: 50px;
+    width: 50%;
+    padding: 0;
+    float: right;
+}
+
+.btn-modal:hover {
+    background: #f74949;
+    color: #fff;
+}
+
+#whats-on-your-mind {
+    height: 250px;
 }
