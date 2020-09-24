@@ -15,7 +15,7 @@ header{
     height: 80px;
     width: 100%;
     position: fixed;
-    bottom: 800px;
+    bottom: 710px;
     z-index: 99999;
 }
 
@@ -30,7 +30,7 @@ header{
 h2 {
     /*text-transform: uppercase;*/
     letter-spacing: 4px;
-    color: #f74949;
+    color: #f3752c;
 }
 
 footer{
@@ -90,9 +90,13 @@ footer{
     width: 100%;
     position: relative;
     overflow: auto;
-    
 }
 
+#section-gallery {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 /* ---- Navbar ---- */
 .navalert-container {
     position: relative;
@@ -129,6 +133,11 @@ footer{
     height: calc( 100vh - 60px ) !important;
 }
 
+.navbar:hover {
+    background: #f3752c;
+    opacity: 50%;
+    color: rgb(0, 0, 0);
+}
 .btn-nav {
     font-weight: bold;
     background-color: #fff;
@@ -137,7 +146,7 @@ footer{
 }
 
 .btn-nav:hover {
-    background: #f74949;
+    background: #f3752c;
     color: rgb(0, 0, 0);
 }
 
@@ -205,12 +214,9 @@ footer{
 }
 
 /* ---- API Links ----- */
-/*#demo-calendar {
-    position: relative;
-    margin: 0, auto;
-    width: 100%;
-}*/
-
+#demo-calendar {
+    object-fit: contain;
+}
 
 /* ---- Modal ---- */
 .modal {
@@ -231,10 +237,33 @@ footer{
 }
 
 .btn-modal:hover {
-    background: #f74949;
+    background: #f3752c;
     color: #fff;
 }
 
 #whats-on-your-mind {
     height: 250px;
+}
+
+/* ---- Community ---- */
+#post-user-image {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 50px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 50px; /* Set a small width */    
+}
+
+#post-user-image:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#community-messages {
+    height: 600px; 
+    overflow-y: scroll;
+}
+
+#post-images {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;    
 }
