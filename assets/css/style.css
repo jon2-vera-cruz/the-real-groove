@@ -9,14 +9,21 @@ body {
     font-family: "Roboto", sans-serif;
     color: #777777;
     padding-top: 0;
+    object-fit: contain;    
 }
 
 header{
     height: 80px;
     width: 100%;
     position: fixed;
-    bottom: 710px;
+    bottom: 690px;
     z-index: 99999;
+}
+
+#body-section {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;    
 }
 
 #community-sign-up, #community-post {
@@ -28,7 +35,6 @@ header{
 }
 
 h2 {
-    /*text-transform: uppercase;*/
     letter-spacing: 4px;
     color: #f3752c;
 }
@@ -58,9 +64,6 @@ footer{
     -o-background-size: 100%;   
     -moz-background-size: 100%;   
     -webkit-background-size: 100%;
-    /*animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;*/
 }
 
 #about-real-groove-image {
@@ -97,6 +100,37 @@ footer{
     padding: 0;
     border: 0;
 }
+
+/* ---- Container ---- */
+.container {
+    margin-left: 10px;
+}
+
+.features-container  {
+    margin-left: 10px;
+    padding: 0;
+    border: 0;
+}
+.content-container {
+    margin-left: 10px;
+    padding: 0;
+    border: 0;
+}
+.callout-container {
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
 /* ---- Navbar ---- */
 .navalert-container {
     position: relative;
@@ -112,7 +146,9 @@ footer{
 .navbar {
     margin-bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, .25);
+    background-color: #bf360c;
+    color: #ffffff;
+    opacity: 80%;
     border: 0;
 }
 
@@ -150,22 +186,6 @@ footer{
     color: rgb(0, 0, 0);
 }
 
-/* ----- Containers ----- */
-.callout-container {
-    height: 100vh;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-}
-
-.content-container {
-    padding-top: 75px;
-    padding-bottom: 75px;
-}
-
 /* ---- Media Screen ---- */
 @media only screen and (min-width: 600px) {
     .hide-header-navigation-item {
@@ -177,11 +197,12 @@ footer{
         overflow-y: scroll;
     }
     
-    #demo-calendar {
+    /*#demo-calendar {
         position: relative;
         margin: 0, auto;
         width: 180%;
-    }
+        left: 180px;
+    }*/
 }
 
 @media only screen and (max-width: 600px) {
@@ -221,6 +242,9 @@ footer{
 /* ---- Modal ---- */
 .modal {
     color: black;
+    background-color: #fffd61;
+    height: 500px;
+    width: 100%;
 }
 
 .btn-modal {
@@ -246,15 +270,15 @@ footer{
 }
 
 /* ---- Community ---- */
-#post-user-image {
-    border: 1px solid #ddd; /* Gray border */
+.post-user-image {
+    border: 1px solid #ddd; 
     border-radius: 50px;  /* Rounded border */
-    padding: 5px; /* Some padding */
-    width: 50px; /* Set a small width */    
+    padding: 5px; /* 5px padding */
+    width: 50px; /* Set a small width of 50px*/    
 }
 
-#post-user-image:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+.post-user-image:hover {
+    box-shadow: 0 0 2px 1px #f3752c;
 }
 
 #community-messages {
@@ -262,7 +286,23 @@ footer{
     overflow-y: scroll;
 }
 
-#post-images {
+.post-images {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;    
+}
+
+.post-gallery {
+    border: 1px solid #ddd; 
+    padding: 5px; /* 5px padding */
+    width: 50px; /* Set a small width of 50px*/    
+}
+
+.post-gallery:hover {
+    box-shadow: 0 0 2px 1px #f3752c;
+}
+
+#real-groove-gallery {
     height: 100%;
     width: 100%;
     object-fit: contain;    

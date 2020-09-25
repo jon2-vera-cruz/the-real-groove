@@ -1,0 +1,239 @@
+
+*
+{
+	margin:0;
+	padding:0;
+}
+
+/* Styling upper Menu */
+.menu
+{
+	margin:10px auto;
+	width:640px;
+	text-align:center;
+}
+
+.menu ul
+{
+	padding:3px;
+	list-style:none;
+	display:inline-block;
+	border:1px solid #aaa;
+	background: radial-gradient(rgba(255, 255, 255, 0.8) 50%, rgba(180,180,180,0.8));
+}
+
+.menu ul li
+{
+	padding:0px;
+	cursor:pointer;
+	float:left;	
+	margin:0 2px 0 2px;
+	font-family:cursive;
+	color:#723A3A;
+	border:1px solid #aaa;	
+	padding:2px;
+}
+
+.menu ul li:hover
+{
+	background: radial-gradient(rgba(199, 224, 205, 0.8) 50%, rgba(103, 140, 196, 0.8));
+}
+
+.menuSelected
+{
+	background: radial-gradient(rgba(199, 224, 205, 0.8) 50%, rgba(103, 140, 196, 0.8));
+}
+
+
+/* ============================== This is for Overall Styling of the Image Gallery. */
+.gallery-container
+{
+	width:640px;
+	border:2px solid rgb(10, 108, 175);
+	/*border-radius*/
+	-webkit-border-radius:5px 5px 10px 10px;
+	-moz-border-radius:5px 5px 10px 10px;
+	border-radius:5px 5px 10px 10px;
+	margin:10px auto;
+	padding:0px;
+	display:table;
+	position:relative;
+	text-align:center; 
+	box-shadow: 0 0 20px #119;	
+}
+
+.gallery-container h2
+{
+	font-family: arial;
+	color: #fff;
+	background: rgb(8, 9, 55);
+	text-shadow: 0 0 15px #12C024;
+}
+
+/* Styling the Pagination Thumbnail Images. */
+.pagi-container
+{
+	width:640px;
+	text-align:center; 
+	border: 2px solid rgb(75, 41, 160);
+	/*border-radius*/
+	-webkit-border-radius:0px 0px 8px 8px;
+	-moz-border-radius:0px 0px 8px 8px;
+	border-radius:0px 0px 8px 8px;
+	padding-top:350px; /* This creates the space for viewing the Slider Images. */
+	position:relative;
+	overflow:hidden;
+}
+
+.pagi-container input[name='input_thumb'] 
+{
+	display: none;	
+}
+
+.pagi-container >label
+{
+	border:1px solid #aaa;
+	padding:5px; /* This is important to Increase the Click-able Region of the anchor Elements */
+	background: radial-gradient(rgba(255, 255, 255, 0.8) 50%, rgba(180,180,180,0.8));
+	display:inline-flex;	
+	transition: all 0.5s;
+	margin-bottom: 5px;
+	box-shadow: 0 0 30px #404741;
+}
+
+.pagi-container >label:hover
+{
+	background: radial-gradient(rgba(220, 220, 220, 0.3), rgba(180,180,180,0.8) 95%);
+}
+
+.pagi-container label img
+{
+	opacity:0.7;	
+}
+
+.pagi-container label img:hover
+{
+	opacity:1.0;
+}
+
+/* This will add the Click Effect */
+.pagi-container input[name='input_thumb']:checked+label {
+	border:1px solid #111;
+	opacity: 1;
+}
+
+.pagi-container input[name='input_thumb']:checked+label>img
+{
+	opacity:1;
+}
+
+.pagi-container input[name='input_thumb']:checked+label+img {
+	opacity: 1;
+	width:640px;
+	height:345px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;	
+	transform: scale(1);	
+}
+
+/* Adding #background region to hide the images coming from bottom direction, as it'll overlap with the Pagination Thumbnail images, while transitioning from Down direction. */
+#background
+{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 26%;
+	background-color: white;
+	z-index: -1;
+}
+
+/* Different Styling for each Patterns. */
+.DefaultBigStyle1
+{
+	position:absolute;
+	opacity:0;
+	width:640px;
+	height:345px;
+	left:0px;
+	top:0px;	
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+	transform:scale(1.05);
+}
+
+.DefaultBigStyle2
+{
+	position:absolute;
+	width:640px;
+	height:345px;
+	left:-650px;
+	top:0px;
+	opacity:0;
+}
+
+.DefaultBigStyle3
+{
+	position:absolute;
+	width:640px;
+	height:345px;
+	left:650px;
+	top:0px;
+	opacity:0;	
+}
+
+.DefaultBigStyle4
+{
+	position:absolute;
+	width:640px;
+	height:345px;
+	left:0px;	
+	top:-350px;
+	opacity:0;	
+}
+
+.DefaultBigStyle5
+{
+	position:absolute;
+	width:640px;
+	height:345px;
+	left:0px;	
+	top:350px;
+	opacity:0;	
+	z-index:-2; /* IMPORTANT: To give the images coming from down direction a depth, so that it'll not overlap with the Pagination Thumbnail images. */
+}
+
+.DefaultBigStyle6
+{
+	position:absolute;
+	width:640px;
+	height:345px;
+	left:650px;
+	top:-350px;
+	opacity:0;	
+}
+
+.DefaultBigStyle7
+{
+	position:absolute;
+	width:640px;
+	height:345px;
+	left:0px;
+	top:0px;
+	opacity:0;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;	
+	transform: scale(0.5);	
+}
