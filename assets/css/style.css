@@ -44,12 +44,26 @@ footer{
 }
 
 /* ---- Images ---- */
-#real-groove-image{
+#real-groove-image {
     height:800px;
     width: 100%;
     top: 0px;
     position: relative;
     background: url("../images/real-groove.jpg") no-repeat center center;
+
+    background-size: 100%;   
+    -ms-background-size: 100%;   
+    -o-background-size: 100%;   
+    -moz-background-size: 100%;   
+    -webkit-background-size: 100%;
+}
+
+#tockify-image {
+    height: 500px;
+    width: 100%;
+    top: 0px;
+    position: relative;
+    background: url("../images/tockify.jpg") no-repeat center center;
 
     background-size: 100%;   
     -ms-background-size: 100%;   
@@ -71,6 +85,13 @@ footer{
     -o-background-size: 100%;   
     -moz-background-size: 100%;   
     -webkit-background-size: 100%;
+}
+
+.image-float-right  {
+    border: 2px solid  #000000;
+    clear: right;
+    float: right;
+    margin: 5px 2px 10px 15px;
 }
 
 #section-landing-image, #section-about-us, #section-community-and-event{
@@ -218,8 +239,10 @@ footer{
 }
 
 /* ---- API Links ----- */
-#demo-calendar {
+#community-calendar {
     object-fit: contain;
+    left: 180px;
+    position: relative;
 }
 
 /* ---- Modal ---- */
