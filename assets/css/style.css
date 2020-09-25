@@ -16,7 +16,9 @@ header{
     height: 80px;
     width: 100%;
     position: fixed;
-    bottom: 660px;
+    top: 0px;
+    margin: 0px;
+    border: 0px;
     z-index: 99999;
 }
 
