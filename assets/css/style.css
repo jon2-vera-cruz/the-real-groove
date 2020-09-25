@@ -64,7 +64,7 @@ footer{
     height: 500px;
     width: 100%;
     top: 0px;
-    left: 180px;
+    left: 80px;
     position: relative;
     background: url("../images/about-real-groove.jpg") no-repeat center center;
 
@@ -296,16 +296,12 @@ footer{
     box-shadow: 0 0 2px 1px #f3752c;
 }
 
-#community-sign-up, #community-post {
+#community-sign-up, #community-post, #community-book-us {
     border-color: #030303;
     border-radius: 30px;
 }
 
-#community-sign-up button, #community-post button {
-    padding-right: 20px;
-}
-
-#community-messages, #community-calendar {
+#community-messages {
     margin-top: 20px;
     height: 600px; 
     overflow-y: scroll;
