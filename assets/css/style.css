@@ -16,7 +16,7 @@ header{
     height: 80px;
     width: 100%;
     position: fixed;
-    bottom: 630px;
+    bottom: 660px;
     z-index: 99999;
 }
 
@@ -50,20 +50,6 @@ footer{
     top: 0px;
     position: relative;
     background: url("../images/real-groove.jpg") no-repeat center center;
-
-    background-size: 100%;   
-    -ms-background-size: 100%;   
-    -o-background-size: 100%;   
-    -moz-background-size: 100%;   
-    -webkit-background-size: 100%;
-}
-
-#tockify-image {
-    height: 500px;
-    width: 100%;
-    top: 0px;
-    position: relative;
-    background: url("../images/tockify.jpg") no-repeat center center;
 
     background-size: 100%;   
     -ms-background-size: 100%;   
