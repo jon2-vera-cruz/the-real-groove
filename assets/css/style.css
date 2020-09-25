@@ -75,13 +75,6 @@ footer{
     -webkit-background-size: 100%;
 }
 
-.image-float-right  {
-    border: 2px solid  #000000;
-    clear: right;
-    float: right;
-    margin: 5px 2px 10px 15px;
-}
-
 #section-landing-image, #section-about-us, #section-community-and-event{
     margin: 0;
     padding: 0;
@@ -108,8 +101,9 @@ footer{
 }
 
 .content-container {
-    margin-left: 20px;
+    margin-left: 10px;
 }
+
 .callout-container {
     height: 100vh;
     display: flex;
@@ -119,8 +113,14 @@ footer{
 }
 
 .content-container {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.features {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 /* ---- Navbar ---- */
@@ -189,7 +189,7 @@ footer{
     }
     
     .navalert-container {
-        padding-top: 30px;
+        padding-top: 20px;
     }
 }
 
@@ -198,6 +198,10 @@ footer{
         display: none !important;
     }
     
+    .show-header-navigation-item {
+        display: block !important;
+    }
+
     #about-real-groove-image {
         left: 0px;
     }
@@ -206,6 +210,13 @@ footer{
         padding-top: 0;
     }
 
+    .container {
+        margin-left: 5px;
+    }
+
+    #community-calendar {
+        left: 50px;
+    }
 }
 
 /* ---- Social Media ---- */        
@@ -229,7 +240,7 @@ footer{
 /* ---- API Links ----- */
 #community-calendar {
     object-fit: contain;
-    left: 180px;
+    left: 20px;
     position: relative;
 }
 
