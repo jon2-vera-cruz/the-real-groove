@@ -47,7 +47,7 @@ footer{
 
 /* ---- Images ---- */
 #real-groove-image {
-    height: 1200px;
+    height: 968px;
     width: 100%;
     top: 0px;
     position: relative;
@@ -75,7 +75,7 @@ footer{
     -webkit-background-size: 100%;
 }
 
-#section-landing-image, #section-about-us, #section-community-and-event{
+#section-landing-image, #section-about-us, #section-community-and-event, #section-gallery{
     margin: 0;
     padding: 0;
     border: 0;
@@ -221,6 +221,10 @@ footer{
 
     #community-calendar {
         left: 10px;
+    }
+
+    #real-groove-image {
+        height: 512px;
     }
 }
 
