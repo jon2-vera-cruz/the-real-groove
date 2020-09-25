@@ -191,6 +191,11 @@ footer{
     .navalert-container {
         padding-top: 20px;
     }
+    
+    #community-calendar {
+        left: 50px;
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -215,7 +220,7 @@ footer{
     }
 
     #community-calendar {
-        left: 50px;
+        left: 10px;
     }
 }
 
