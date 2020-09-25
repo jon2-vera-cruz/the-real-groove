@@ -7,7 +7,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #777777;
+    color: #313131;
     padding-top: 0;
     object-fit: contain;    
 }
@@ -16,7 +16,7 @@ header{
     height: 80px;
     width: 100%;
     position: fixed;
-    bottom: 690px;
+    bottom: 630px;
     z-index: 99999;
 }
 
@@ -24,14 +24,6 @@ header{
     height: 100%;
     width: 100%;
     object-fit: contain;    
-}
-
-#community-sign-up, #community-post {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    border-color: #030303;
-    border-radius: 20px;
 }
 
 h2 {
@@ -81,24 +73,24 @@ footer{
     -webkit-background-size: 100%;
 }
 
-#section-landing-image{
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-#section-about-us {
-    height: 50%;
-    width: 100%;
-    position: relative;
-    overflow: auto;
-}
-
-#section-gallery {
+#section-landing-image, #section-about-us, #section-community-and-event{
     margin: 0;
     padding: 0;
     border: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: auto;
+    object-fit: contain;    
+}
+
+#section-community-and-event {
+    background-color: #f5f377;
+}
+
+#section-gallery {
+    padding-bottom: 50px;
+    object-fit: contain;    
 }
 
 /* ---- Container ---- */
@@ -106,29 +98,20 @@ footer{
     margin-left: 10px;
 }
 
-.features-container  {
-    margin-left: 10px;
-    padding: 0;
-    border: 0;
-}
 .content-container {
-    margin-left: 10px;
-    padding: 0;
-    border: 0;
+    margin-left: 20px;
 }
 .callout-container {
     height: 100vh;
-    
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
 .content-container {
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 /* ---- Navbar ---- */
@@ -139,7 +122,6 @@ footer{
     z-index: 1;
     padding-left: 0;
     padding-right: 0;
-    padding-top: 30px;
     float: top;
 }
 
@@ -197,12 +179,9 @@ footer{
         overflow-y: scroll;
     }
     
-    /*#demo-calendar {
-        position: relative;
-        margin: 0, auto;
-        width: 180%;
-        left: 180px;
-    }*/
+    .navalert-container {
+        padding-top: 30px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -212,6 +191,10 @@ footer{
     
     #about-real-groove-image {
         left: 0px;
+    }
+
+    .navalert-container {
+        padding-top: 0;
     }
 
 }
@@ -243,8 +226,9 @@ footer{
 .modal {
     color: black;
     background-color: #fffd61;
-    height: 500px;
+    height: 800px;
     width: 100%;
+    margin-top: 60px;
 }
 
 .btn-modal {
@@ -253,7 +237,7 @@ footer{
     font-weight: bold;
     background-color: #5a5a5a;
     border-radius: 20px;
-    margin-top: 25px;
+    margin-top: 5px;
     height: 50px;
     width: 50%;
     padding: 0;
@@ -281,7 +265,17 @@ footer{
     box-shadow: 0 0 2px 1px #f3752c;
 }
 
-#community-messages {
+#community-sign-up, #community-post {
+    border-color: #030303;
+    border-radius: 30px;
+}
+
+#community-sign-up button, #community-post button {
+    padding-right: 20px;
+}
+
+#community-messages, #community-calendar {
+    margin-top: 20px;
     height: 600px; 
     overflow-y: scroll;
 }
