@@ -243,7 +243,7 @@ footer{
     font-size: 30px;
     position: absolute;
     float:left;
-    top: 40px;
+    top: 30px;
     left: 10px;
 }
 
@@ -253,7 +253,7 @@ footer{
     position: relative;
 }
 
-.social-networks i, .social-networks-mobile i {
+.social-networks i{
     margin: 1%;
     padding: 5%;
     color: #777777;
