@@ -25,7 +25,8 @@ header{
 #body-section {
     height: 100%;
     width: 100%;
-    object-fit: contain;    
+    object-fit: contain;
+    margin-bottom: 60px;
 }
 
 h2 {
@@ -79,8 +80,8 @@ footer{
     margin: 0;
     padding: 0;
     border: 0;
-    height: 100%;
-    width: 100%;
+    /*height: 100%;
+    width: 100%;*/
     position: relative;
     overflow: auto;
     object-fit: contain;    
@@ -191,11 +192,6 @@ footer{
     .navalert-container {
         padding-top: 20px;
     }
-    
-    #community-calendar {
-        left: 50px;
-    }
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -219,12 +215,12 @@ footer{
         margin-left: 5px;
     }
 
-    #community-calendar {
-        left: 10px;
-    }
-
     #real-groove-image {
         height: 512px;
+    }
+
+    #body-section {
+        margin-bottom: 0px;
     }
 }
 
@@ -249,8 +245,8 @@ footer{
 /* ---- API Links ----- */
 #community-calendar {
     object-fit: contain;
-    left: 20px;
     position: relative;
+    margin-top: 20px;
 }
 
 /* ---- Modal ---- */
@@ -303,7 +299,7 @@ footer{
 
 #community-messages {
     margin-top: 20px;
-    height: 600px; 
+    height: 630px; 
     overflow-y: scroll;
 }
 
@@ -325,6 +321,6 @@ footer{
 
 #real-groove-gallery {
     height: 100%;
-    width: 100%;
+    width: 90%;
     object-fit: contain;    
 }
