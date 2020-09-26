@@ -163,7 +163,6 @@ footer{
 
 .navbar:hover{
     background: #bf360c;
-    /*color: #f3f704;*/
 }
 
 .dropdown-menu {
@@ -180,7 +179,7 @@ footer{
 }
 
 .btn-nav:hover {
-    background: #5a1601;
+    background: #bf360c;
     color: rgb(0, 0, 0);
 }
 
@@ -197,6 +196,10 @@ footer{
     
     .navalert-container {
         padding-top: 20px;
+    }
+
+    .social-network-mobile {
+        display: none !important;
     }
 }
 
@@ -236,17 +239,26 @@ footer{
     position: left;
 }
 
-.social-networks li {
+.social-network-mobile {
+    font-size: 30px;
+    position: absolute;
+    float:left;
+    top: 40px;
+    left: 10px;
+}
+
+.social-networks li, .social-networks-mobile li {
     /*display:inline;*/
     float:left;
     position: relative;
 }
 
-.social-networks i {
+.social-networks i, .social-networks-mobile i {
     margin: 1%;
     padding: 5%;
     color: #777777;
 }
+
 
 /* ---- API Links ----- */
 #community-calendar {
