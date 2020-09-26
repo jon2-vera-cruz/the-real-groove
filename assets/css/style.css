@@ -158,14 +158,20 @@ footer{
 }
 
 .navbar .navbar-generate-content-header {
-    height: calc( 100vh - 60px ) !important;
+    height: calc( 100vh - 20px ) !important;
 }
 
-.navbar:hover {
-    background: #f3752c;
-    opacity: 50%;
-    color: rgb(0, 0, 0);
+.navbar:hover{
+    background: #bf360c;
+    /*color: #f3f704;*/
 }
+
+.dropdown-menu {
+    background: #bf360c;
+    background-color: #d9fa45;
+    color: rgb(61, 65, 40);
+}
+
 .btn-nav {
     font-weight: bold;
     background-color: #fff;
@@ -174,7 +180,7 @@ footer{
 }
 
 .btn-nav:hover {
-    background: #f3752c;
+    background: #5a1601;
     color: rgb(0, 0, 0);
 }
 
