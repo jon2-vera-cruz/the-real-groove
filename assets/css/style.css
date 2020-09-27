@@ -179,6 +179,16 @@ footer {
     color: rgb(61, 65, 40);
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
 .btn-nav {
     font-weight: bold;
     background-color: #fff;
@@ -208,16 +218,6 @@ footer {
 
     .social-network-mobile {
         display: none !important;
-    }
-
-    .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%;
-    }
-
-    .sticky + .content {
-        padding-top: 60px;
     }
 }
 
@@ -331,9 +331,6 @@ footer {
 #community-sign-up,
 #community-post,
 #community-book-us {
-    margin: 0;
-    padding: 0;
-    border: 0;
     border-color: #030303;
     border-radius: 30px;
 }

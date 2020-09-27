@@ -1,4 +1,8 @@
+# **MILESTONE PROJECT 1** #
+
 <img src="./assets/images/ReadMe.png" style="margin: 0;">
+
+# **REAL GROOVE - MUSICIAN | BAND** #
 
 Welcome jon2-vera-cruz,
 
