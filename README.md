@@ -4,9 +4,11 @@
 
 # **REAL GROOVE - MUSICIAN | BAND** #
 
-Welcome jon2-vera-cruz,
+Welcome to the Real-Groove website!
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+This website is designed to give the band fan base and it's community what the band is all about, what they are doing, gigs they will be performing and some previous gigs on their post. 
+
+This project will demonstrate what has been learned so far throughout the 1st milestone of the Full Stack Development course and will present the webpage user useful information in using HTML and CSS.
 
 ## Gitpod Reminders
 
