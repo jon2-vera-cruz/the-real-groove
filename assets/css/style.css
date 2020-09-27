@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -9,10 +8,10 @@ body {
     font-family: "Roboto", sans-serif;
     color: #313131;
     padding-top: 0;
-    object-fit: contain;    
+    object-fit: contain;
 }
 
-header{
+header {
     height: 80px;
     width: 100%;
     position: fixed;
@@ -34,7 +33,7 @@ h2 {
     color: #f3752c;
 }
 
-footer{
+footer {
     height: 85px;
     width: 100%;
     position: fixed;
@@ -54,10 +53,10 @@ footer{
     position: relative;
     background: url("../images/real-groove.jpg") no-repeat center center;
 
-    background-size: 100%;   
-    -ms-background-size: 100%;   
-    -o-background-size: 100%;   
-    -moz-background-size: 100%;   
+    background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    -moz-background-size: 100%;
     -webkit-background-size: 100%;
 }
 
@@ -69,14 +68,17 @@ footer{
     position: relative;
     background: url("../images/about-real-groove.jpg") no-repeat center center;
 
-    background-size: 100%;   
-    -ms-background-size: 100%;   
-    -o-background-size: 100%;   
-    -moz-background-size: 100%;   
+    background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    -moz-background-size: 100%;
     -webkit-background-size: 100%;
 }
 
-#section-landing-image, #section-about-us, #section-community-and-event, #section-gallery{
+#section-landing-image,
+#section-about-us,
+#section-community-and-event,
+#section-gallery {
     margin: 0;
     padding: 0;
     border: 0;
@@ -84,7 +86,7 @@ footer{
     width: 100%;*/
     position: relative;
     overflow: auto;
-    object-fit: contain;    
+    object-fit: contain;
 }
 
 #section-community-and-event {
@@ -93,7 +95,13 @@ footer{
 
 #section-gallery {
     padding-bottom: 50px;
-    object-fit: contain;    
+    object-fit: contain;
+}
+
+#real-groove-thumbnail {
+    padding: 0;
+    border: 0;
+    margin: 0 10px 0 10px;
 }
 
 /* ---- Container ---- */
@@ -158,10 +166,10 @@ footer{
 }
 
 .navbar .navbar-generate-content-header {
-    height: calc( 100vh - 20px ) !important;
+    height: calc(100vh - 20px) !important;
 }
 
-.navbar:hover{
+.navbar:hover {
     background: #bf360c;
 }
 
@@ -190,10 +198,10 @@ footer{
     }
 
     #who-we-are {
-        height: 500px; 
+        height: 500px;
         overflow-y: scroll;
     }
-    
+
     .navalert-container {
         padding-top: 20px;
     }
@@ -207,7 +215,7 @@ footer{
     .hide-footer-navigation-item {
         display: none !important;
     }
-    
+
     .show-header-navigation-item {
         display: block !important;
     }
@@ -233,8 +241,8 @@ footer{
     }
 }
 
-/* ---- Social Media ---- */        
-.social-networks{
+/* ---- Social Media ---- */
+.social-networks {
     text-align: center;
     position: left;
 }
@@ -242,23 +250,23 @@ footer{
 .social-network-mobile {
     font-size: 30px;
     position: absolute;
-    float:left;
+    float: left;
     top: 30px;
     left: 10px;
 }
 
-.social-networks li, .social-networks-mobile li {
+.social-networks li,
+.social-networks-mobile li {
     /*display:inline;*/
-    float:left;
+    float: left;
     position: relative;
 }
 
-.social-networks i{
+.social-networks i {
     margin: 1%;
     padding: 5%;
     color: #777777;
 }
-
 
 /* ---- API Links ----- */
 #community-calendar {
@@ -300,37 +308,39 @@ footer{
 
 /* ---- Community ---- */
 .post-user-image {
-    border: 1px solid #ddd; 
-    border-radius: 50px;  /* Rounded border */
+    border: 1px solid #ddd;
+    border-radius: 50px; /* Rounded border */
     padding: 5px; /* 5px padding */
-    width: 50px; /* Set a small width of 50px*/    
+    width: 50px; /* Set a small width of 50px*/
 }
 
 .post-user-image:hover {
     box-shadow: 0 0 2px 1px #f3752c;
 }
 
-#community-sign-up, #community-post, #community-book-us {
+#community-sign-up,
+#community-post,
+#community-book-us {
     border-color: #030303;
     border-radius: 30px;
 }
 
 #community-messages {
     margin-top: 20px;
-    height: 630px; 
+    height: 630px;
     overflow-y: scroll;
 }
 
 .post-images {
     height: 100%;
     width: 100%;
-    object-fit: contain;    
+    object-fit: contain;
 }
 
 .post-gallery {
-    border: 1px solid #ddd; 
+    border: 1px solid #ddd;
     padding: 5px; /* 5px padding */
-    width: 50px; /* Set a small width of 50px*/    
+    width: 50px; /* Set a small width of 50px*/
 }
 
 .post-gallery:hover {
@@ -342,5 +352,5 @@ footer{
     width: 90%;
     object-fit: contain;
     border: 10px 10px 10px 10px;
-    margin-right: 20px;  
+    margin-right: 20px;
 }
