@@ -134,7 +134,7 @@ footer {
 
 /* ---- Navbar ---- */
 .navalert-container {
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
@@ -208,6 +208,16 @@ footer {
 
     .social-network-mobile {
         display: none !important;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .sticky + .content {
+        padding-top: 60px;
     }
 }
 
@@ -321,6 +331,9 @@ footer {
 #community-sign-up,
 #community-post,
 #community-book-us {
+    margin: 0;
+    padding: 0;
+    border: 0;
     border-color: #030303;
     border-radius: 30px;
 }

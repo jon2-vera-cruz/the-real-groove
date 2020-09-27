@@ -1,4 +1,4 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<img src="./assets/images/ReadMe.png" style="margin: 0;">
 
 Welcome jon2-vera-cruz,
 
