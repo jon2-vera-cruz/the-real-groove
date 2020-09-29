@@ -15,6 +15,10 @@ header {
     z-index: 99999;
 }
 
+#heading-container{
+    padding-top: 0;
+}
+
 #body-section {
     height: 100%;
     width: 100%;
@@ -36,10 +40,17 @@ footer {
 }
 
 #who-we-are p {
+    width: 100%;
     left: 100px;
 }
 
 /* ---- Images ---- */
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+}
+
 #real-groove-image {
     height: 800px;
     width: 100%;
@@ -58,7 +69,6 @@ footer {
     height: 500px;
     width: 100%;
     top: 0px;
-    left: 80px;
     position: relative;
     background: url("../images/post/about-real-groove.jpg") no-repeat center center;
 
@@ -76,8 +86,6 @@ footer {
     margin: 0;
     padding: 0;
     border: 0;
-    /*height: 100%;
-    width: 100%;*/
     position: relative;
     overflow: auto;
     object-fit: contain;
@@ -99,8 +107,10 @@ footer {
 }
 
 /* ---- Container ---- */
-.container {
-    margin-left: 10px;
+.container-fluid {
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .content-container {
@@ -125,6 +135,12 @@ footer {
     padding: 0;
     border: 0;
 }
+
+.col-lg-8, .col-md-auto {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
 
 /* ---- Navbar ---- */
 .navalert-container {
@@ -188,8 +204,8 @@ footer {
 .btn-nav {
     font-weight: bold;
     background-color: #fff;
-    padding: 0px 0px 0px 0px;
-    margin: 0;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .btn-nav:hover {
@@ -246,23 +262,10 @@ footer {
     box-shadow: 0 0 2px 1px #f3752c;
 }
 
-#community-sign-up,
-#community-post,
-#community-book-us {
-    border-color: #030303;
-    border-radius: 30px;
-}
-
 #community-messages {
     margin-top: 20px;
     height: 630px;
     overflow-y: scroll;
-}
-
-.post-images {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
 }
 
 .post-gallery {
@@ -323,5 +326,10 @@ footer {
     .social-network {
         border-top-color: solid black;
         flex-direction: row;
+    }
+
+    .col-lg-8, .col-md-auto {
+        padding-right: 5px;
+        padding-left: 5px;
     }
 }
