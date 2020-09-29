@@ -1,12 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
 body {
     font-family: "Roboto", sans-serif;
-    color: #313131;
+    color: #2c2c2c;
     padding-top: 0;
     object-fit: contain;
 }
@@ -51,7 +45,7 @@ footer {
     width: 100%;
     top: 0px;
     position: relative;
-    background: url("../images/real-groove.jpg") no-repeat center center;
+    background: url("../images/post/real-groove-aak.jpg") no-repeat center center;
 
     background-size: 100%;
     -ms-background-size: 100%;
@@ -66,7 +60,7 @@ footer {
     top: 0px;
     left: 80px;
     position: relative;
-    background: url("../images/about-real-groove.jpg") no-repeat center center;
+    background: url("../images/post/about-real-groove.jpg") no-repeat center center;
 
     background-size: 100%;
     -ms-background-size: 100%;
@@ -171,6 +165,8 @@ footer {
 
 .navbar:hover {
     background: #bf360c;
+    color: #fafafa;
+    cursor: pointer;
 }
 
 .dropdown-menu {
@@ -201,83 +197,6 @@ footer {
     color: rgb(0, 0, 0);
 }
 
-/* ---- Media Screen ---- */
-@media only screen and (min-width: 600px) {
-    .hide-header-navigation-item {
-        display: none !important;
-    }
-
-    #who-we-are {
-        height: 500px;
-        overflow-y: scroll;
-    }
-
-    .navalert-container {
-        padding-top: 20px;
-    }
-
-    .social-network-mobile {
-        display: none !important;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .hide-footer-navigation-item {
-        display: none !important;
-    }
-
-    .show-header-navigation-item {
-        display: block !important;
-    }
-
-    #about-real-groove-image {
-        left: 0px;
-    }
-
-    .navalert-container {
-        padding-top: 0;
-    }
-
-    .container {
-        margin-left: 5px;
-    }
-
-    #real-groove-image {
-        height: 512px;
-    }
-
-    #body-section {
-        margin-bottom: 0px;
-    }
-}
-
-/* ---- Social Media ---- */
-.social-networks {
-    text-align: center;
-    position: left;
-}
-
-.social-network-mobile {
-    font-size: 30px;
-    position: absolute;
-    float: left;
-    top: 30px;
-    left: 10px;
-}
-
-.social-networks li,
-.social-networks-mobile li {
-    /*display:inline;*/
-    float: left;
-    position: relative;
-}
-
-.social-networks i {
-    margin: 1%;
-    padding: 5%;
-    color: #777777;
-}
-
 /* ---- API Links ----- */
 #community-calendar {
     object-fit: contain;
@@ -288,7 +207,6 @@ footer {
 /* ---- Modal ---- */
 .modal {
     color: black;
-    background-color: #fffd61;
     height: 800px;
     width: 100%;
     margin-top: 60px;
@@ -363,4 +281,47 @@ footer {
     object-fit: contain;
     border: 10px 10px 10px 10px;
     margin-right: 20px;
+}
+
+/* ---- Media Screen ---- */
+@media only screen and (min-width: 600px) {
+    .hide-header-navigation-item {
+        display: none !important;
+    }
+
+    #who-we-are {
+        height: 500px;
+        overflow-y: scroll;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hide-footer-navigation-item {
+        display: none !important;
+    }
+
+    .show-header-navigation-item {
+        display: block !important;
+    }
+
+    #about-real-groove-image {
+        left: 0px;
+    }
+
+    .container {
+        margin-left: 5px;
+    }
+
+    #real-groove-image {
+        height: 512px;
+    }
+
+    #body-section {
+        margin-bottom: 0px;
+    }
+
+    .social-network {
+        border-top-color: solid black;
+        flex-direction: row;
+    }
 }
