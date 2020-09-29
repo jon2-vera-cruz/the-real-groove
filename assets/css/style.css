@@ -14,11 +14,6 @@ header {
     padding-top: 0;
 }
 
-#who-we-are p {
-    width: 100%;
-    left: 100px;
-}
-
 /* ---- Images ---- */
 img {
     vertical-align: middle;
@@ -67,6 +62,12 @@ img {
     object-fit: contain;
 }
 
+/* ---- About Us Section ---- */
+#who-we-are p {
+    width: 100%;
+    left: 100px;
+}
+
 /* ---- Community Section ---- */
 #section-community-and-event {
     background-color: #f5f377;
@@ -85,9 +86,16 @@ img {
 }
 
 #community-messages {
-    margin-top: 20px;
-    height: 630px;
+    margin-top: 10px;
+    height: 645px;
     overflow-y: scroll;
+    border: 2px solid #bf360c;
+}
+
+#community-calendar {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #bf360c;
 }
 
 /* ---- Gallery Section ---- */
@@ -131,6 +139,10 @@ img {
 .col-lg-8, .col-md-auto {
     padding-right: 0px;
     padding-left: 0px;
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 1rem!important;
 }
 
 /* ---- Navbar ---- */
@@ -194,11 +206,6 @@ img {
     cursor: pointer;
 }
 
-/* ---- API Links ----- */
-#community-calendar {
-    margin-top: 20px;
-}
-
 /* ---- Modal ---- */
 .modal {
     color: black;
@@ -230,9 +237,9 @@ img {
     #who-we-are {
         margin-bottom: 20px;
         padding: 10px;
-        border: 1px solid #bf360c;
         height: 512px;
         overflow-y: scroll;
+        border: 2px solid #bf360c;
     }
 }
 
