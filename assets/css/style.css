@@ -176,7 +176,7 @@ img {
 }
 
 .navbar .navbar-generate-content-header {
-    height: calc(100vh - 20px) !important;
+    height: calc(100vh - 10px) !important;
 }
 
 .navbar:hover {
