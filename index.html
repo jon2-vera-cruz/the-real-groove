@@ -169,7 +169,7 @@
                                 <button class="btn btn-lg btn-nav" data-toggle="modal" data-target="#bookUs">Book Us!</button>
                             </div>
                             <div id="community-calendar">
-                                <div style="text-align=center;" data-tockify-calendar="spirited" data-tockify-component="mini" data-tockify-height="630px"></div>
+                                <div data-tockify-calendar="spirited" data-tockify-component="mini" data-tockify-height="630px"></div>
                             </div>
                         </div>
                     </div>
@@ -227,48 +227,6 @@
                 </div>
             </section>
         </div>
-        <!--footer class="hide-footer-navigation-item">
-            <div class="container-fluid navalert-container">
-                <nav class="navbar navbar-dark navbar-expand-sm">
-                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#footer-navbarNavDropdown" aria-controls="footer-navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="footer-navbarNavDropdown">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="active nav-item mr-2">
-                                <a class="nav-link" href="#section-landing-page" onclick="closeNavBar()">Home</a>
-                            </li>
-                            <li class="nav-item dropup">
-                                <a class="nav-link dropdown-toggle" href="#" id="navfootbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-                                <div class="dropdown-menu" aria-labelledby="navfootbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="#who-we-are" onclick="closeNavBar()">Who we are</a>
-                                    <a class="dropdown-item" data-toggle="modal" data-target="#bookUs" onclick="closeNavBar()">Book Us</a>
-                                </div>
-                            </li>
-                            <li class="nav-item mr-2"><a class="nav-link" href="#section-community-and-event" onclick="closeNavBar()">Community/Events</a></li>
-                            <li class="nav-item mr-2"><a class="nav-link" href="#section-gallery" onclick="closeNavBar()">Gallery</a></li>
-                        </ul>
-                        <ul class="navbar-nav social-network">
-                            <li class="nav-item mr-2">
-                                <a href="https://www.youtube.com" target="_blank"> <i class="nav-link fab fa-youtube-square"></i> </a>
-                            </li>
-                            <li class="nav-item mr-2">
-                                <a href="https://www.spotify.com" target="_blank"> <i class="nav-link fab fa-spotify"></i> </a>
-                            </li>
-                            <li class="nav-item mr-2">
-                                <a href="https://www.facebook.com/Real-Groove-104266259637053/?ref=page_internal" target="_blank"> <i class="nav-link fab fa-facebook"></i> </a>
-                            </li>
-                            <li class="nav-item mr-2">
-                                <a href="https://www.twitter.com" target="_blank"> <i class="nav-link fab fa-twitter-square"></i> </a>
-                            </li>
-                            <li class="nav-item mr-2">
-                                <a href="https://www.instagram.com" target="_blank"> <i class="nav-link fab fa-instagram"></i> </a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </footer-->
 
         <div class="col-lg-4">
             <!-- **** Modal for Join In Our Community **** -->
@@ -321,7 +279,7 @@
                             <form id="createCommunityPost" onsubmit="return buttonUnderConstruction('createCommunityPost', 'post-btn');">
                                 <div class="form-group" data-for="message">
                                     <label class="form-control-label mbr-fonts-style display-7" for="message">What's on your mind?</label>
-                                    <textarea type="text" class="form-control" name="message" rows="7" data-form-field="Message" id="message"></textarea>
+                                    <textarea class="form-control" name="message" rows="7" data-form-field="Message" id="message"></textarea>
                                 </div>
                                 <div class="form-group" data-for="others">
                                     <ul class="navbar-nav community-post">
@@ -370,20 +328,20 @@
                                     </div>
                                 </div>
                                 <div class="row row-sm-offset">
-                                    <div class="col-md-12 multi-horizontal" data-for="email">
+                                    <div class="col-md-12 multi-horizontal" data-for="book-us">
                                         <div class="form-group">
                                             <label class="form-control-label mbr-fonts-style display-7" for="email">Email</label>
-                                            <input type="email" class="form-control" name="email" data-form-field="Email" required="" id="email" />
+                                            <input type="email" class="form-control" name="email" data-form-field="Email" required="" id="book-us" />
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group" data-for="message">
+                                <div class="form-group" data-for="message-us">
                                     <label class="form-control-label mbr-fonts-style display-7" for="message">Message</label>
-                                    <textarea type="text" class="form-control" name="message" rows="7" data-form-field="Message" id="message"></textarea>
+                                    <textarea class="form-control" name="message" rows="7" data-form-field="Message" id="message-us"></textarea>
                                 </div>
 
                                 <span class="input-group-btn">
-                                    <button id="bookus-btn" href="mailto:realgroove@yahoo.com.ph" type="submit" class="btn btn-primary btn-form display-4">mailto: realgroove@yahoo.com.ph</button>
+                                    <button id="bookus-btn" type="submit" class="btn btn-primary btn-form display-4">mailto: test@gmail.com</button>
                                 </span>
                             </form>
                         </div>
@@ -398,7 +356,7 @@
         <script src="https://public.tockify.com/browser/embed.js" data-cfasync="false" data-tockify-script="embed"></script>
         <!-- Below function will change the image of the main gallery picture into the picture of the thumbnail 
              the user clicks. -->
-        <script type="text/javascript">
+        <script>
             function showImage(imgName) {
                 var curImage = document.getElementById("currentImg");
                 var imgPath = "assets/images/post/";
@@ -427,21 +385,5 @@
                 document.getElementById(formID).reset();
             }
         </script>
-        <!-- Below function is to make the Navigation bar sticky when user scrolls on desktop/laptop devices
-             still having hardtime making it work so for now i disabled it and retain two navbar instead one for header
-             visible on small mobile devices and one on footer which is visible on medium mobile, laptop anddesktop devices  -->
-        <!--script type="text/javascript">
-            window.onscroll = function() {myFunction()};
-            var navbar = document.getElementById("navbar");
-            var sticky = navbar.offsetTop;
-
-            function myFunction() {
-                if (window.pageYOffset >= sticky) {
-                    navbar.classList.add("sticky")
-                } else {
-                    navbar.classList.remove("sticky");
-                }
-            }
-        </script-->
     </body>
 </html>

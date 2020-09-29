@@ -1,42 +1,17 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #2c2c2c;
-    padding-top: 0;
     object-fit: contain;
 }
 
 header {
-    height: 80px;
     width: 100%;
     position: fixed;
-    top: 0px;
-    margin: 0px;
-    border: 0px;
     z-index: 99999;
 }
 
 #heading-container{
     padding-top: 0;
-}
-
-#body-section {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    margin-bottom: 80px;
-}
-
-h2 {
-    letter-spacing: 4px;
-    color: #f3752c;
-}
-
-footer {
-    height: 85px;
-    width: 100%;
-    position: fixed;
-    bottom: 0px;
-    z-index: 99999;
 }
 
 #who-we-are p {
@@ -79,6 +54,7 @@ img {
     -webkit-background-size: 100%;
 }
 
+/* ---- Section ---- */
 #section-landing-image,
 #section-about-us,
 #section-community-and-event,
@@ -91,19 +67,52 @@ img {
     object-fit: contain;
 }
 
+/* ---- Community Section ---- */
 #section-community-and-event {
     background-color: #f5f377;
 }
 
+.post-user-image {
+    border: 1px solid #ddd;
+    border-radius: 50px; /* Rounded border */
+    padding: 5px; /* 5px padding */
+    width: 50px; /* Set a small width of 50px*/
+}
+
+.post-user-image:hover {
+    box-shadow: 0 0 2px 1px #bf360c;
+    cursor: pointer;
+}
+
+#community-messages {
+    margin-top: 20px;
+    height: 630px;
+    overflow-y: scroll;
+}
+
+/* ---- Gallery Section ---- */
 #section-gallery {
     padding-bottom: 50px;
     object-fit: contain;
 }
 
-#real-groove-thumbnail {
-    padding: 0;
-    border: 0;
-    margin: 0 10px 0 10px;
+.post-gallery {
+    border: 1px solid #ddd;
+    padding: 5px; /* 5px padding */
+    width: 50px; /* Set a small width of 50px*/
+}
+
+.post-gallery:hover {
+    box-shadow: 0 0 2px 1px #bf360c;
+    cursor: pointer;
+}
+
+#real-groove-gallery {
+    height: 100%;
+    width: 90%;
+    object-fit: contain;
+    border: 2px solid #bf360c;
+    margin-right: 20px;
 }
 
 /* ---- Container ---- */
@@ -115,32 +124,14 @@ img {
 
 .content-container {
     margin-left: 10px;
-}
-
-.callout-container {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.content-container {
     padding-top: 10px;
     padding-bottom: 10px;
-}
-
-.features {
-    margin: 0;
-    padding: 0;
-    border: 0;
 }
 
 .col-lg-8, .col-md-auto {
     padding-right: 0px;
     padding-left: 0px;
 }
-
 
 /* ---- Navbar ---- */
 .navalert-container {
@@ -175,30 +166,19 @@ img {
     font-size: 150%;
 }
 
-.navbar .navbar-generate-content-header {
-    height: calc(100vh - 10px) !important;
-}
-
 .navbar:hover {
     background: #bf360c;
-    color: #fafafa;
     cursor: pointer;
 }
 
-.dropdown-menu {
+.dropdown-menu, .dropdown-item {
     background: #bf360c;
-    background-color: #d9fa45;
-    color: rgb(61, 65, 40);
+    color: #fafafa;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.sticky + .content {
-    padding-top: 60px;
+.dropdown-menu:hover {
+    background: #bf360c;
+    color: #212529;
 }
 
 .btn-nav {
@@ -216,8 +196,6 @@ img {
 
 /* ---- API Links ----- */
 #community-calendar {
-    object-fit: contain;
-    position: relative;
     margin-top: 20px;
 }
 
@@ -243,77 +221,22 @@ img {
 }
 
 .btn-modal:hover {
-    background: #f3752c;
+    background: #bf360c;
     color: #fff;
     cursor: pointer;
 }
-
-#whats-on-your-mind {
-    height: 250px;
-}
-
-/* ---- Community ---- */
-.post-user-image {
-    border: 1px solid #ddd;
-    border-radius: 50px; /* Rounded border */
-    padding: 5px; /* 5px padding */
-    width: 50px; /* Set a small width of 50px*/
-}
-
-.post-user-image:hover {
-    box-shadow: 0 0 2px 1px #f3752c;
-    cursor: pointer;
-}
-
-#community-messages {
-    margin-top: 20px;
-    height: 630px;
-    overflow-y: scroll;
-}
-
-.post-gallery {
-    border: 1px solid #ddd;
-    padding: 5px; /* 5px padding */
-    width: 50px; /* Set a small width of 50px*/
-}
-
-.post-gallery:hover {
-    box-shadow: 0 0 2px 1px #f3752c;
-    cursor: pointer;
-}
-
-#real-groove-gallery {
-    height: 100%;
-    width: 90%;
-    object-fit: contain;
-    border: 10px 10px 10px 10px;
-    margin-right: 20px;
-}
-
 /* ---- Media Screen ---- */
 @media only screen and (min-width: 600px) {
-    .hide-header-navigation-item {
-        display: none !important;
-    }
-
     #who-we-are {
         margin-bottom: 20px;
         padding: 10px;
-        border: 1px solid #f3752c;
+        border: 1px solid #bf360c;
         height: 512px;
         overflow-y: scroll;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .hide-footer-navigation-item {
-        display: none !important;
-    }
-
-    .show-header-navigation-item {
-        display: block !important;
-    }
-
     #about-real-groove-image {
         left: 0px;
     }
@@ -326,13 +249,9 @@ img {
         height: 512px;
     }
 
-    #body-section {
-        margin-bottom: 0px;
-    }
-
     .social-network {
-        border-top-color: solid black;
         flex-direction: row;
+        letter-spacing: 1.5em;
     }
 
     .col-lg-8, .col-md-auto {
