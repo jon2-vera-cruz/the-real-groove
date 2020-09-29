@@ -109,8 +109,8 @@ img {
 /* ---- Container ---- */
 .container-fluid {
     padding-top: 15px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 .content-container {
@@ -211,6 +211,7 @@ img {
 .btn-nav:hover {
     background: #bf360c;
     color: rgb(0, 0, 0);
+    cursor: pointer;
 }
 
 /* ---- API Links ----- */
@@ -244,6 +245,7 @@ img {
 .btn-modal:hover {
     background: #f3752c;
     color: #fff;
+    cursor: pointer;
 }
 
 #whats-on-your-mind {
@@ -260,6 +262,7 @@ img {
 
 .post-user-image:hover {
     box-shadow: 0 0 2px 1px #f3752c;
+    cursor: pointer;
 }
 
 #community-messages {
@@ -276,6 +279,7 @@ img {
 
 .post-gallery:hover {
     box-shadow: 0 0 2px 1px #f3752c;
+    cursor: pointer;
 }
 
 #real-groove-gallery {
@@ -293,7 +297,10 @@ img {
     }
 
     #who-we-are {
-        height: 500px;
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #f3752c;
+        height: 512px;
         overflow-y: scroll;
     }
 }
