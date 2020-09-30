@@ -8,86 +8,159 @@ Welcome to the Real-Groove website!
 
 This website is designed to give the band fan base and it's community what the band is all about, what they are doing, gigs they will be performing and some previous gigs on their post. 
 
-This project will demonstrate what has been learned so far throughout the 1st milestone of the Full Stack Development course and will present the webpage user useful information in using HTML and CSS.
+This project will demonstrate what has been learned so far throughout the 1st milestone of the Full Stack Development course provided by Code Institute and will present the webpage user useful information in using HTML and CSS.
 
-# Smallroundears Website
- 
-## Overview
- 
-### What is this website for?
- 
-This is a website for people to learn about Hippopotami and/or then test them on their knowledge.
- 
-### What does it do?
- 
-This website has various pages for people to read lots of information about Hippopotami, ranging from what they eat and their habitat, to their behavior and tendencies. Users can then quiz themselves on their new found Hippo knowledge.
- 
-### How does it work
- 
-This website uses **AngularJS** to route viewers through the site and control which **Javascript** is executed. The site is styled with **Bootstrap**. The quiz has been created using **Javascript** and modal for enlarging images is displayed using some **JQuery** code. **Bower** has been used to manage package dependencies for deployment of site on github pages. The site can be viewed [HERE](https://futoisaru.github.io/hippo/)
-​
-## Features
- 
-### Existing Features
-- Eye catching front page
-  - Sliding picture box
-- Information page.
-  - Sidebar to navigate to different parts of the information
-- Media page with plenty of pictures and a video
-- Links page to other sites with information about Hippopotami
-- Quiz page for viewers to test their knowledge
-    - Form for viewers to input their answers or check the correct box
-    - Submit button so viewers can see how they scored on the quiz
-​
-### Features Left to Implement
-- None
-​
-## Tech Used
-​
-### Some the tech used includes:
-- **HTML**, **CSS** and **Javascript**
-  - Base languages used to create website
-- [AngularJS](https://angularjs.org/)
-    - We use **AngularJS** to handle page routing and to build custom directives
-- [Bootstrap](http://getbootstrap.com/)
-    - We use **Bootstrap** to give our project a simple, responsive layout
-- [JQuery](https://jquery.com)
-    - Use **JQuery** for boostrap and displaying modal
-- [npm](https://www.npmjs.com/)
-    - We use **npm** to install **http-server** in order to view the site
-- [Bower](https://bower.io)
-    - Using **Bower** to manage package dependencies
-​
-## Testing
-- Prototype code was written and tested using jasmine
-- All code used on the site has been tested to ensure everything is working as expected
-- Site viewed and tested in the following browsers:
-  - Google Chrome
-  - Opera
-  - Microsoft Edge
-  - Mozilla Firefox
-​
-## Contributing
- 
-### Getting the code up and running
-1. Firstly you will need to clone this repository by running the ```git clone <project's Github URL>``` command
-2. After you've that you'll need to make sure that you have **npm** installed
-  1. You can get **npm** by installing Node from [here](https://nodejs.org/en/)
-4. After those dependencies have been installed you'll need to make sure that you have **http-server** installed. You can install this by running the following: ```npm install -g http-server # this also may require sudo on Mac/Linux```
-5. Once **http-server** is installed run ```http-server -c-1```
-6. The project will now run on [localhost](http://127.0.0.1:8080)
-7. Make changes to the code and if you think it belongs in here then just submit a pull request
-​
-## Credits
-​
-### Media
-- The photos used in this site were obtained from [Pixabay](https://pixabay.com/)
-- The video used on this site belongs to Nat Geo Wild channel on [youtube](https://www.youtube.com/watch?v=WfrG95GyU9U)
-​
-### Information
-- The information used to create this site was from a number of sources
-    - Wikipedia webpage on [Hippos](https://en.wikipedia.org/wiki/Hippopotamus) and [Pygmy Hippos](https://en.wikipedia.org/wiki/Pygmy_hippopotamus)
-    - The African Wildlife Foundation [website](http://www.awf.org/
+## **CONTENTS** ##
 
-API Links
-https://tockify.com/i/docs/api/embed
+ 
+
+- [Project Goals](#project-goals)
+- [UX](#ux)
+  - [User Stories](#user-stories)
+    - [As Is](#as-is)
+    - [To Be](#to-be)
+  - [Design and Development Process](#design-process)
+    - [Fonts](#fonts)
+    - [Colors](#colors)
+    - [Tools, Technology and Framework Used](#tools-technology-and-framework-used)
+- [Features](#features)
+    - [Features Implemented](#features-implemented)
+    - [Future Enhancements](#future-Enhancements)
+- [Testing](#testing)
+    - [Encountered Issues](#encountered-issues)
+    - [Known Issues](#known-issues)
+- [Live Deployment](#live-deployment)
+- [Credits](#credits)
+- [Acknowledgements](#acknowledgements)
+
+ 
+
+## <ins>PROJECT GOALS</ins> ##
+
+The main objective of this 1st Milestone project was to create a website that would give the user a single page to visit that would allow them to access the band information, gigs and events, its community and gallery.
+
+--- 
+## **UX** ##
+
+### <ins>USER STORIES</ins> ###
+
+#### <ins>AS IS</ins> ####
+- As a **new user**, I want to learn more about the band, their genre and band members and other information.
+- As a **new user**, I want to learn more about the band community, their gigs and/events schedule.
+- As a **new user**, I want to browse the bands gallery/photos.
+
+#### <ins>TO BE</ins> ####
+- As a **band member**, I want to be able to share the band's gig/events schedule/calendar.
+- As a **new user**, I want to be able to join the band's community, create post and book the band for gigs/events i want them to be a part of.
+
+[Back to Contents](#contents)
+
+--- 
+### <ins>DESIGN AND DEVELOPMENT</ins> ###
+
+#### <ins>FONTS</ins> ####
+
+- [Google Fonts](https://fonts.google.com/) - Roboto font family is used for the website
+
+#### <ins>COLORS</ins> ####
+
+- [Material Design](https://material.io/resources/color/#!/?view.left=0&view.right=0) - is used to measure accesibility level of any color combination in color palettes. 
+
+#### <ins>TOOLS TECHNOLOGY and FRAMEWORK USED</ins> ####
+
+- [Balsamic Wireframes](https://balsamiq.com/wireframes) - is used to create the initial mockup of the website. A bmpr (balsamic) version of the website design can be found <a href="assets/misc/MS-Projet-1.bmpr">here</a> while a pdf version of the wireframe can be found <a href="assets/misc/MS-Project-1.pdf">here</a>. The web page initial design changed during the course of development process.
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - this was used for the modal form and also for the "scroll up" button to allow the user to return to the top of the screen.  The JS code for this was borrowed from the W3 Schools website after a search to find out how to create this.
+- [jQuery](https://jquery.com/)
+- [Font-Awesome](https://fontawesome.com/icons?d=gallery) - icons used on thw website came from here.
+- [Bootstrap](https://getbootstrap.com/) - Bootstrap is used for the most part of the website for its responsive design.
+- [Popper](https://popper.js.org/)
+- [Popper JS](https://popperjs.org/)
+- [Tockify](https://public.tockify.com/browser/embed.js") - is used to embed a calendar API on the webpage.
+- [Git](https://git-scm.com/) - version control and recording of all changes to site during development process
+- [GitHub](https://github.com/) - used for hosting website
+- [GitPod](https://www.gitpod.io/) - IDE used for code editing.
+- [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) - is used to debug and test site responsiveness on all screen sizes.
+- [Google Fonts](https://fonts.google.com/) - used to select font families
+- [W3C Validator](https://validator.w3.org/) - used to test my HTML to ensure there were no errors
+- [W3C Validator CSS](https://jigsaw.w3.org/css-validator/) - used to test my CSS to ensure there were no errors
+- [HTML Formatter](https://www.webformatter.com/html) - html formatter to help keep things tidy!
+- [Am I Responsive](http://ami.responsivedesign.is/#) - used to create responsive image for readme.MD
+
+[Back to Contents](#contents)
+
+---
+
+## **FEATURES** ##
+
+### <ins>FEATURES IMPLEMENTED</ins> ###
+- Bootstrap NavBar is used so the user can navigate the site easily.
+- Social media links to the band's pages.
+- Calendar of events.
+- Single page that have Landing, About Us, Community and Events, and Gallery section.
+- Hover is used on all clickable links.
+- Modal form used for sign up, create post or contact the band.
+
+### <ins>FUTURE ENHANCEMENTS</ins> ###
+- Website admin/owner will be able to incorporate the band's calendar schedules within the community - will requires JS.
+- users will be able to join/sign-up, create post and contact/book the band.
+- add video gallery to include videos of the band performances.
+- The addition of a search bar in the NavBar to allow instant site navigation for the user.
+
+[Back to Contents](#contents)
+
+---
+
+## **TESTING** ##
+
+The sites responsiveness was tested by the following methods:
+
+- used different web browser (Google Chrome, Moxilla Firefox, Microsoft Edge) to check for compatibility issue.
+- Physical testing was conducted on desktop, tablet and mobile devices.
+- All buttons and clickable links and images were tested to ensure they are working as expected.
+- Popup (modal form) window was tested to ensure that they are working as expected.
+- HTML and CSS codes were formatted and validated through accessible online resources (see [Tools, Technology and Framework Used](#tools-technology-and-framework-used)) 
+
+### <ins>ENCOUNTERED ISSUES</ins>
+
+Below are the issues encountered during development and testing:
+
+- The initial landing images was pixelized. Use a different image instead.
+- Navbar collapse doesn't close/hide when user clicks a dropdown menu. Turn out a javascript is needed to address the issue encountered.
+
+### <ins>KNOWN ISSUES</ins>
+
+Below is/are the known issues that needs to be address yet:
+
+- Although the navbar collapse is now closing/hiding when user clicks a particular menu, the hierarchial dropdown still have the same issue and this will need additional JS.
+
+[Back to Contents](#contents)
+
+---
+
+## **LIVE DEPLOYMENT** ##
+
+The site is hosted on [GitHub Pages](https://jon2-vera-cruz.github.io/the-real-groove/).
+
+[Back to Contents](#contents)
+
+---
+
+## **CREDITS** ##
+
+Code Institute Challenges and Projects throughout 1st Milestone - I've always want to try to design a web site and the modules and online lesson makes it really easier to understand the concept behind designing your own web site.
+
+[Back to Contents](#contents)
+
+---
+
+## **ACKNOWLEDGEMENTS** ##
+
+Thank you to the following people:
+
+- Akshat Garg, my mentor, for his time in providing guidance, and online resources to help make it through this 1st milestone project...
+- Class of August-CI-2020 on Slack,
+- #peer-code-review/#user-centric-frontend folks on slack (you know who you are :) )who gave some of their time reviewing and giving feedback and suggestions.
+
+[Back to Contents](#contents)
