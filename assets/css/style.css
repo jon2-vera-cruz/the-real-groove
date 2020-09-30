@@ -231,6 +231,12 @@ img {
     cursor: pointer;
 }
 /* ---- Media Screen ---- */
+@media only screen and (min-width: 1200px) {
+    #real-groove-image, #about-real-groove-image {
+        height: 1200px;
+    }
+}
+
 @media only screen and (min-width: 992px) {
     #real-groove-image, #about-real-groove-image {
         height: 992px;
@@ -247,7 +253,7 @@ img {
     #who-we-are {
         margin-bottom: 20px;
         padding: 10px;
-        height: 640px;
+        height: 600px;
         overflow-y: scroll;
         border: 2px solid #bf360c;
     }
@@ -263,7 +269,7 @@ img {
     }
 
     #real-groove-image, #about-real-groove-image {
-        height: 480px;
+        height: 400px;
     }
 
     .social-network {
