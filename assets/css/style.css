@@ -22,7 +22,6 @@ img {
 }
 
 #real-groove-image {
-    height: 800px;
     width: 100%;
     top: 0px;
     position: relative;
@@ -117,8 +116,7 @@ img {
 }
 
 #real-groove-gallery {
-    height: 100%;
-    width: 90%;
+    width: 100%;
     object-fit: contain;
     border: 2px solid #bf360c;
     margin-right: 20px;
@@ -234,11 +232,23 @@ img {
     cursor: pointer;
 }
 /* ---- Media Screen ---- */
+@media only screen and (min-width: 992px) {
+    #real-groove-image, #about-real-groove-image {
+        height: 992px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #real-groove-image, #about-real-groove-image {
+        height: 768px;
+    }
+}
+
 @media only screen and (min-width: 600px) {
     #who-we-are {
         margin-bottom: 20px;
         padding: 10px;
-        height: 512px;
+        height: 640px;
         overflow-y: scroll;
         border: 2px solid #bf360c;
     }
@@ -253,8 +263,8 @@ img {
         margin-left: 5px;
     }
 
-    #real-groove-image {
-        height: 512px;
+    #real-groove-image, #about-real-groove-image {
+        height: 480px;
     }
 
     .social-network {
