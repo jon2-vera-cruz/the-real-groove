@@ -77,7 +77,7 @@ img {
     border: 1px solid #ddd;
     border-radius: 50px; /* Rounded border */
     padding: 5px; /* 5px padding */
-    /*width: 10%; /* Set a small width of 50px*//
+    width: 10%; /* Set a small width of 50px*/
 }
 
 .post-user-image:hover {
