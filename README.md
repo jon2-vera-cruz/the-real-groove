@@ -68,7 +68,7 @@ The main objective of this 1st Milestone project was to create a website that wo
 
 #### <ins>TOOLS TECHNOLOGY and FRAMEWORK USED</ins> ####
 
-- [Balsamic Wireframes](https://balsamiq.com/wireframes) - is used to create the initial mockup of the website. A bmpr (balsamic) version of the website design can be found <a href="assets/misc/MS-Projet-1.bmpr">here</a> while a pdf version of the wireframe can be found <a href="assets/misc/MS-Project-1.pdf">here</a>. The web page initial design changed during the course of development process.
+- [Balsamic Wireframes](https://balsamiq.com/wireframes) - is used to create the initial mockup of the website. A bmpr (balsamic) version of the website design can be found <a href="assets/misc/MS-Project-1.bmpr">here</a> while a pdf version of the wireframe can be found <a href="assets/misc/MS-Project-1.pdf">here</a>. The web page initial design changed during the course of development process.
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - this was used for the modal form and also for the "scroll up" button to allow the user to return to the top of the screen.  The JS code for this was borrowed from the W3 Schools website after a search to find out how to create this.
