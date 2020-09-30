@@ -245,7 +245,7 @@ img {
 
 @media only screen and (min-width: 768px) {
     #real-groove-image, #about-real-groove-image {
-        height: 800px;
+        height: 840px;
     }
 }
 
@@ -280,5 +280,11 @@ img {
     .col-lg-8, .col-md-auto {
         padding-right: 5px;
         padding-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #real-groove-image, #about-real-groove-image {
+        height: 320px;
     }
 }
