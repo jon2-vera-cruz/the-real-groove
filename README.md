@@ -124,16 +124,21 @@ The sites responsiveness was tested by the following methods:
 
 ### <ins>ENCOUNTERED ISSUES</ins>
 
-Below are the issues encountered during development and testing:
+Below is/are the issues encountered during development and testing:
 
-- The initial landing images was pixelized. Use a different image instead.
+- The initial landing images was pixelized.
 - Navbar collapse doesn't close/hide when user clicks a dropdown menu. Turn out a javascript is needed to address the issue encountered.
+- Hieriarchial drop down menu doesn't close the navbar collapsed menu when user clicks on any hierarchial dropdown link.
+- Some links are broken
 
-### <ins>KNOWN ISSUES</ins>
+### <ins>SOLUTION ON ISSUES ENCOUNTERED</ins>
 
-Below is/are the known issues that needs to be address yet:
+Below is/are the solution provided on the issues encountered above:
 
-- Although the navbar collapse is now closing/hiding when user clicks a particular menu, the hierarchial dropdown still have the same issue and this will need additional JS.
+- Replaced the pixelized landing image with a high resolution image.
+- Created a javascript to hide the navbar collapsed menu.
+- Created a javascript to determine a dropdown menu link has been cliked and call the function to hide the navbar collapsed menu within the function.
+- Corrected the links.
 
 [Back to Contents](#contents)
 

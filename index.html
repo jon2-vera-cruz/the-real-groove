@@ -374,6 +374,18 @@
                 $(".collapse").collapse('hide');
             }
         </script>
+        <!-- Below function is to hide the drop down when user clicks the navigation and then 
+             call the above function to close the navbar collapsed menu as well. -->
+        <script>
+            window.onclick = function (elementClicked) {
+                let dropDown = document.getElementById(elementClicked);
+                if (dropDown.classList.contains("show")) {
+                    dropDown.classList.remove("show");
+                }
+                closeNavBar();
+            }
+        </script>
+
         <!-- Below function is to change button background to red and change the button text to 'under Construction!'
              when user clicks either the Join Community (Submit), Create Post (Post), and Book Us (mailto:) buttons.
              These button doesn't do anything yet at the moment as this will require lot of work including complicated JS. -->
