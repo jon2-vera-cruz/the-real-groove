@@ -13,12 +13,16 @@
     <body>
         <header>
             <div class="container-fluid navalert-container" id="heading-container">
-                <nav class="navbar navbar-dark navbar-expand-sm">
+                <nav class="navbar navbar-dark navbar-expand-sm header-navbar">
+                    <a class="navbar-brand active" href="#section-landing-page">
+                        <img src="assets/images/real-groove-logo.png" id="navbar-logo" loading="lazy" alt="The Real Groove">
+                        <span class="sr-only">(current)</span>
+                    </a>
                     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#footer-navbarNavDropdown" aria-controls="footer-navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="footer-navbarNavDropdown">
-                        <ul class="navbar-nav mr-auto">
+                        <ul class="navbar-nav ml-auto">
                             <li class="active nav-item mr-2">
                                 <a class="nav-link" href="#section-landing-page" onclick="closeNavBar()">Home</a>
                             </li>
@@ -192,7 +196,7 @@
                     </div>
                     <div class="row">
                         <!--div class="col-12 col-md-auto"-->
-                        <div>
+                        <!--div-->
                             <hr class="block-divider block-divider--short block-divider--white" />
                             <div class="real-groove-thumbnail">
                                 <img src="./assets/images/thumbnails/real-groove-aaa.jpg" class="post-gallery" alt="real-groove-aaa.jpg" onclick="showImage('real-groove-aaa.jpg');" />
@@ -223,17 +227,17 @@
                                 <img src="./assets/images/thumbnails/real-groove-aaz.jpg" class="post-gallery" alt="real-groove-aaz.jpg" onclick="showImage('real-groove-aaz.jpg');" />
                                 <img src="./assets/images/thumbnails/real-groove-aba.jpg" class="post-gallery" alt="real-groove-aba.jpg" onclick="showImage('real-groove-aba.jpg');" />
                             </div>
-                        </div>
+                        <!--/div-->
                     </div>
                 </div>
             </section>
         </div>
         <footer>
             <div class="container-fluid footer-container">
-                <nav class="navbar navbar-dark navbar-expand-sm footer-contents">
-                    <div class="row">
-                        <div class="col-12 col-lg-auto social-network">
-                            <ul class="navbar-nav">
+                <nav class="navbar navbar-dark navbar-expand-sm footer-navbar">
+                    <div class="row social-network-row">
+                        <div class="col-12 col-lg-auto social-network-col">
+                            <ul class="navbar-nav social-network-navbar">
                                 <li class="nav-item mr-2">
                                     <a href="https://www.youtube.com" target="_blank"> <i class="nav-link fab fa-youtube-square"></i> </a>
                                 </li>
@@ -252,7 +256,7 @@
                             </ul>
                             <hr class="block-divider block-divider--short block-divider--white" />
                         </div>
-                        <div class="col-12 col-lg-auto">
+                        <div class="col-12 col-lg-auto copyright-col">
                             <div class="footer-copyright text-center">© 2020 Copyright: Carlito Vera Cruz </div>
                         </div>
                     </div>
