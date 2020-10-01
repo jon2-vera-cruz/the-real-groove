@@ -35,9 +35,11 @@ img {
 }
 
 #about-real-groove-image {
-    height: 500px;
+    height: 420px;
     width: 100%;
-    top: 0px;
+    justify-content: center;
+    top: 80px;
+    left: 10px;
     position: relative;
     background: url("../images/post/about-real-groove.jpg") no-repeat center center;
 
@@ -232,19 +234,19 @@ img {
 }
 /* ---- Media Screen ---- */
 @media only screen and (min-width: 1200px) {
-    #real-groove-image, #about-real-groove-image {
+    #real-groove-image {
         height: 1200px;
     }
 }
 
 @media only screen and (min-width: 992px) {
-    #real-groove-image, #about-real-groove-image {
+    #real-groove-image {
         height: 992px;
     }
 }
 
 @media only screen and (min-width: 768px) {
-    #real-groove-image, #about-real-groove-image {
+    #real-groove-image {
         height: 800px;
     }
 }
@@ -260,15 +262,11 @@ img {
 }
 
 @media only screen and (max-width: 600px) {
-    #about-real-groove-image {
-        left: 0px;
-    }
-
     .container {
         margin-left: 5px;
     }
 
-    #real-groove-image, #about-real-groove-image {
+    #real-groove-image {
         height: 400px;
     }
 
@@ -284,7 +282,7 @@ img {
 }
 
 @media only screen and (max-width: 400px) {
-    #real-groove-image, #about-real-groove-image {
+    #real-groove-image {
         height: 320px;
     }
 }
