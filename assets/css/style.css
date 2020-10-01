@@ -198,6 +198,7 @@ img {
     background-color: #fff;
     padding: 5px;
     border-radius: 5px;
+    margin-bottom: 5px;
 }
 
 .btn-nav:hover {
@@ -207,6 +208,14 @@ img {
 }
 
 /* ---- Modal ---- */
+.modal-header, .modal-body {
+    padding: 0.5rem;
+}
+
+.form-group {
+    margin-bottom: 0.5rem;
+}
+
 .modal {
     color: black;
     height: 800px;
