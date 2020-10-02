@@ -235,7 +235,7 @@ hr {
     color: #212529;
 }
 
-.btn-nav {
+.page-btn-nav {
     font-weight: bold;
     background-color: #fff;
     padding: 5px;
@@ -243,7 +243,7 @@ hr {
     margin-bottom: 5px;
 }
 
-.btn-nav:hover {
+.page-btn-nav:hover {
     background: #bf360c;
     color: rgb(0, 0, 0);
     cursor: pointer;
@@ -265,24 +265,13 @@ hr {
     margin-top: 60px;
 }
 
-.btn-modal {
-    color: #fff;
-    font-size: 1.25rem;
-    font-weight: bold;
-    background-color: #5a5a5a;
-    border-radius: 20px;
-    margin-top: 5px;
-    height: 50px;
-    width: 50%;
-    padding: 0;
-    float: right;
+.modal-content {
+    background-color:  #f5f377;
+    color: black;
 }
 
-.btn-modal:hover {
-    background: #bf360c;
-    color: #fff;
-    cursor: pointer;
-}
+
+
 /* ---- Media Screen ---- */
 @media only screen and (min-width: 768px) {
     #real-groove-image {
