@@ -121,16 +121,33 @@ hr {
     background-color: #f5f377;
 }
 
+#user-post {
+    margin: 0px;
+    box-shadow: 3px 3px 5px solid grey;
+    background: white;
+    border-bottom: 1px solid #cc5e27;
+}
+
 .post-user-image {
     border: 1px solid #ddd;
-    border-radius: 50px; /* Rounded border */
-    padding: 5px; /* 5px padding */
-    width: 10%; /* Set a small width of 50px*/
+    border-radius: 50%;
+    width: 5%;
+    height: 50px;
 }
 
 .post-user-image:hover {
     box-shadow: 0 0 2px 1px #bf360c;
     cursor: pointer;
+}
+
+.post-images {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0px;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
 }
 
 #community-messages {
@@ -271,7 +288,6 @@ hr {
 }
 
 
-
 /* ---- Media Screen ---- */
 @media only screen and (min-width: 768px) {
     #real-groove-image {
@@ -316,8 +332,8 @@ hr {
     }
 
     #currentImg {
-        width: auto;
-        height: 260px;
+        width: 100%;
+        height: 240px;
     }
 
     .social-network-navbar {
@@ -333,17 +349,20 @@ hr {
     #real-groove-image {
         height: 320px;
     }
+    
     .social-network-col {
         flex: 0 0 100%;
         letter-spacing: 1em;
         padding-left: 15px;
     }
+    
     #real-groove-thumbnail {
         display: inline-flex;
     }
+    
     #currentImg {
-        width: auto;
-        height: 220px;
+        width: 100%;
+        height: 160px;
     }
 
     .social-network-navbar {
