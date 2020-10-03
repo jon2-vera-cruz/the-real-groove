@@ -68,7 +68,7 @@ The main objective of this 1st Milestone project was to create a website that wo
 
 #### <ins>TOOLS TECHNOLOGY and FRAMEWORK USED</ins> ####
 
-- [Balsamic Wireframes](https://balsamiq.com/wireframes) - is used to create the initial mockup of the website. A bmpr (balsamic) version of the website design can be found <a href="assets/misc/ms-project-1.bmpr">here</a> while a pdf version of the wireframe can be found <a href="assets/misc/ms-project-1.pdf">here</a>. The web page initial design changed during the course of development process.
+- [Balsamic Wireframes](https://balsamiq.com/wireframes) - is used to create the initial mockup of the website. A bmpr (balsamic) version of the website design can be found [here](assets/misc/ms-project-1.bmpr) while a pdf version of the wireframe can be found [here](assets/misc/ms-project-1.pdf). The web page initial design changed during the course of development process.
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - this was used for the modal form and also for the "scroll up" button to allow the user to return to the top of the screen.  The JS code for this was borrowed from the W3 Schools website after a search to find out how to create this.
@@ -122,7 +122,7 @@ The sites responsiveness was tested by the following methods:
 - Popup (modal form) window was tested to ensure that they are working as expected.
 - HTML and CSS codes were formatted and validated through accessible online resources (see [Tools, Technology and Framework Used](#tools-technology-and-framework-used)) 
 
-Test Case checklist can be found <a href="assets/misc/ms1-test-case-checklist.xls">here</a>
+Test Case checklist can be found [here]("href="assets/misc/ms1-test-case-checklist.xls")
 
 ### <ins>ENCOUNTERED ISSUES</ins>
 
@@ -148,7 +148,7 @@ Below is/are the solution provided on the issues encountered above:
 
 ## **LIVE DEPLOYMENT** ##
 
-The site is hosted on [GitHub Pages](https://jon2-vera-cruz.github.io/the-real-groove/).
+The site is hosted on [GitHub Pages](https://jon2-vera-cruz.github.io/the-real-groove/). "How To - Deploying to GitHub Pages" can be found [here](https://www.codecademy.com/articles/f1-u3-github-pages).
 
 [Back to Contents](#contents)
 
