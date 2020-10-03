@@ -1,6 +1,6 @@
 # **MILESTONE PROJECT 1** #
 
-<img src="./assets/images/readme.png" style="margin: 0;">
+<img src="./assets/images/website-screen-responsivess.png" style="margin: 0;">
 
 # **REAL GROOVE - MUSICIAN | BAND** #
 
@@ -21,7 +21,7 @@ This project will demonstrate what has been learned so far throughout the 1st mi
     - [To Be](#to-be)
   - [Design and Development Process](#design-process)
     - [Fonts](#fonts)
-    - [Colors](#colors)
+    - [Colours](#colours)
     - [Tools, Technology and Framework Used](#tools-technology-and-framework-used)
 - [Features](#features)
     - [Features Implemented](#features-implemented)
@@ -62,13 +62,13 @@ The main objective of this 1st Milestone project was to create a website that wo
 
 - [Google Fonts](https://fonts.google.com/) - Roboto font family is used for the website
 
-#### <ins>COLORS</ins> ####
+#### <ins>COLOURS</ins> ####
 
-- [Material Design](https://material.io/resources/color/#!/?view.left=0&view.right=0) - is used to measure accesibility level of any color combination in color palettes. 
+- [Material Design](https://material.io/resources/color/#!/?view.left=0&view.right=0) - is used to measure accesibility level of any color combination via color palettes. 
 
 #### <ins>TOOLS TECHNOLOGY and FRAMEWORK USED</ins> ####
 
-- [Balsamic Wireframes](https://balsamiq.com/wireframes) - is used to create the initial mockup of the website. A bmpr (balsamic) version of the website design can be found <a href="assets/misc/MS-Project-1.bmpr">here</a> while a pdf version of the wireframe can be found <a href="assets/misc/MS-Project-1.pdf">here</a>. The web page initial design changed during the course of development process.
+- [Balsamic Wireframes](https://balsamiq.com/wireframes) - is used to create the initial mockup of the website. A bmpr (balsamic) version of the website design can be found <a href="assets/misc/ms-project-1.bmpr">here</a> while a pdf version of the wireframe can be found <a href="assets/misc/ms-project-1.pdf">here</a>. The web page initial design changed during the course of development process.
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - this was used for the modal form and also for the "scroll up" button to allow the user to return to the top of the screen.  The JS code for this was borrowed from the W3 Schools website after a search to find out how to create this.
@@ -122,6 +122,8 @@ The sites responsiveness was tested by the following methods:
 - Popup (modal form) window was tested to ensure that they are working as expected.
 - HTML and CSS codes were formatted and validated through accessible online resources (see [Tools, Technology and Framework Used](#tools-technology-and-framework-used)) 
 
+Test Case checklist can be found <a href="assets/misc/ms1-test-case-checklist.xls">here</a>
+
 ### <ins>ENCOUNTERED ISSUES</ins>
 
 Below is/are the issues encountered during development and testing:
@@ -137,7 +139,7 @@ Below is/are the solution provided on the issues encountered above:
 
 - Replaced the pixelized landing image with a high resolution image.
 - Created a javascript to hide the navbar collapsed menu.
-- Created a javascript to determine a dropdown menu link has been cliked and call the function to hide the navbar collapsed menu within the function.
+- Created a javascript to determine a dropdown menu link has been selected, close/hide the dropdown menu and then call the function to hide the navbar collapsed menu within the function.
 - Corrected the links.
 
 [Back to Contents](#contents)

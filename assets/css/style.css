@@ -13,19 +13,24 @@ header {
 hr {
     margin: 0;
     border: 0;
-    border-top: 1px solid #f8f9fa;
+    border-top: 1px solid #bf360c;
+    padding-bottom: 10px;
+}
+
+label {
+    margin-bottom: 0;
 }
 
 #navbar-logo {
     height: 40px;
 }
 
-#heading-container{
+#heading-container {
     padding-top: 0;
 }
 
 .footer-copyright {
-    overflow: hidden
+    overflow: hidden;
 }
 
 .social-network-row {
@@ -63,12 +68,7 @@ hr {
     top: 0px;
     position: relative;
     background: url("../images/post/real-groove-aak.jpg") no-repeat center center;
-
     background-size: 100%;
-    -ms-background-size: 100%;
-    -o-background-size: 100%;
-    -moz-background-size: 100%;
-    -webkit-background-size: 100%;
 }
 
 .section-gallery-container > .row {
@@ -78,7 +78,7 @@ hr {
 }
 
 .section-gallery-container > .row > .post-gallery {
-  flex: 0 0 auto;
+    flex: 0 0 auto;
 }
 
 #about-real-groove-image {
@@ -89,12 +89,7 @@ hr {
     left: 10px;
     position: relative;
     background: url("../images/post/about-real-groove.jpg") no-repeat center center;
-
     background-size: 100%;
-    -ms-background-size: 100%;
-    -o-background-size: 100%;
-    -moz-background-size: 100%;
-    -webkit-background-size: 100%;
 }
 
 /* ---- Section ---- */
@@ -123,7 +118,7 @@ hr {
 
 #user-post {
     margin: 0px;
-    box-shadow: 3px 3px 5px solid grey;
+    box-shadow: 3px 3px 5px 1px grey;
     background: white;
     border-bottom: 1px solid #cc5e27;
 }
@@ -144,33 +139,21 @@ hr {
     object-fit: contain;
     text-align: center;
     padding-left: 0;
-    padding-right: 0;    
-    /*
-    clear: both;
-    line-height: 0;
-    */
+    padding-right: 0;
 }
 
 .post-images {
     height: 500px;
     width: auto;
-    /*
-    clear: both;
-    column-gap: 0px;
-    float: left;
-    line-height: 0;
-    column-count: 1;
-    background-size: cover;
-    */
 }
 
 .post-divider {
-    margin-left:5px;
-    margin-right:5px;
-    width:auto;
-    height:100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: auto;
+    height: 100%;
     margin-bottom: 5px;
-    border-bottom:1px solid gray;
+    border-bottom: 1px solid gray;
 }
 #community-messages {
     margin-top: 10px;
@@ -182,7 +165,7 @@ hr {
 #community-calendar {
     margin-top: 10px;
     border: 2px solid #bf360c;
-    margin-bottom: 1rem!important;
+    margin-bottom: 1rem !important;
 }
 
 /* ---- Gallery Section ---- */
@@ -193,8 +176,8 @@ hr {
 
 .post-gallery {
     border: 1px solid #ddd;
-    padding: 5px; /* 5px padding */
-    width: 50px; /* Set a small width of 50px*/
+    padding: 5px;
+    width: 50px;
 }
 
 .post-gallery:hover {
@@ -219,23 +202,29 @@ hr {
     float: top;
 }
 
-.section-about-us-container, .section-community-and-event-container, .section-gallery-container {
+.section-about-us-container,
+.section-community-and-event-container,
+.section-gallery-container {
     padding-top: 15px;
     padding-right: 40px;
     padding-left: 40px;
 }
 
-.col-lg-8, .col-md-auto, .footer-container {
+.col-lg-8,
+.col-md-auto,
+.footer-container {
     padding-right: 0px;
     padding-left: 0px;
 }
 
-.mb-5, .my-5 {
-    margin-bottom: 1rem!important;
+.mb-5,
+.my-5 {
+    margin-bottom: 1rem !important;
 }
 
 /* ---- Navbar ---- */
-.header-navbar, .footer-navbar {
+.header-navbar,
+.footer-navbar {
     margin-bottom: 0;
     width: 100%;
     background-color: #bf360c;
@@ -265,7 +254,8 @@ hr {
     cursor: pointer;
 }
 
-.dropdown-menu, .dropdown-item {
+.dropdown-menu,
+.dropdown-item {
     background: #bf360c;
     color: #fafafa;
 }
@@ -280,7 +270,6 @@ hr {
     background-color: #fff;
     padding: 5px;
     border-radius: 5px;
-    margin-bottom: 5px;
 }
 
 .page-btn-nav:hover {
@@ -289,9 +278,15 @@ hr {
     cursor: pointer;
 }
 
+.control-border {
+    border: 2px solid #bf360c;
+}
+
 /* ---- Modal ---- */
-.modal-header, .modal-body {
+.modal-header,
+.modal-body {
     padding: 0.5rem;
+    border-bottom: 1px solid #2c2c2c;
 }
 
 .form-group {
@@ -306,10 +301,9 @@ hr {
 }
 
 .modal-content {
-    background-color:  #f5f377;
+    background-color: #f5f377;
     color: black;
 }
-
 
 /* ---- Media Screen ---- */
 @media only screen and (min-width: 768px) {
@@ -337,7 +331,8 @@ hr {
         height: 400px;
     }
 
-    .col-lg-8, .col-md-auto {
+    .col-lg-8,
+    .col-md-auto {
         padding-right: 5px;
         padding-left: 5px;
     }
@@ -377,24 +372,23 @@ hr {
         width: auto;
         text-align: center;
     }
-
 }
 
 @media only screen and (max-width: 400px) {
     #real-groove-image {
         height: 320px;
     }
-    
+
     .social-network-col {
         flex: 0 0 100%;
         letter-spacing: 1em;
         padding-left: 15px;
     }
-    
+
     #real-groove-thumbnail {
         display: inline-flex;
     }
-    
+
     #currentImg {
         width: 100%;
         height: 160px;
