@@ -1,6 +1,6 @@
 # **MILESTONE PROJECT 1** #
 
-<img src="./assets/images/website-screen-responsivess.png" style="margin: 0;">
+<img src="./assets/images/website-screen-responsiveness.png" style="margin: 0;">
 
 # **REAL GROOVE - MUSICIAN | BAND** #
 
@@ -168,6 +168,6 @@ Thank you to the following people:
 
 - Akshat Garg, my mentor, for his time in providing guidance, and online resources to help make it through this 1st milestone project...
 - Class of August-CI-2020 on Slack,
-- #peer-code-review/#user-centric-frontend folks on slack (you know who you are :) )who gave some of their time reviewing and giving feedback and suggestions.
+- #peer-code-review / #user-centric-frontend folks on slack (you know who you are :P )who gave some of their time reviewing and giving feedback and suggestions.
 
 [Back to Contents](#contents)
