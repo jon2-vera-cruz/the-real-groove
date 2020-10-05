@@ -122,7 +122,7 @@ The sites responsiveness was tested by the following methods:
 - Popup (modal form) window was tested to ensure that they are working as expected.
 - HTML and CSS codes were formatted and validated through accessible online resources (see [Tools, Technology and Framework Used](#tools-technology-and-framework-used)) 
 
-Test Case checklist can be found [here]("href="assets/misc/ms1-test-case-checklist.xls")
+Test Case checklist can be found [here](assets/misc/ms1-test-case-checklist.xls)
 
 ### <ins>ENCOUNTERED ISSUES</ins>
 
